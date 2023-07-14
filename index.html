@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice - Online Learning Platform</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  </head>
+  <body>
+    <section class="header" id="hero">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" height="50px" style="object-fit: contain;" /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="bi bi-x" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#hero">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#team">TEAM</a></li>
+            <li><a href="#shop">SHOP</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="bi bi-list" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>THE FRESHEST INK BALI</h1>
+        <p>
+          CUSTOM TATTOOS / BODY PIERCING
+        </p>
+        <a href="#about" class="hero-btn">LEARN MORE</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="row">
+        <div class="about-col">
+          <img src="images/about.jpeg" alt="" />
+        </div>
+        <div class="about-col">
+          <h1 class="section-title">TATTOO SHOP IN BALI</h1>
+          <p>
+            Goodkind Tattoo provides unique and custom work and our reviews speak for themselves as one of the best rated tattoo shops in the Chicago area. Our reputation and providing the highest quality of service means the world to us. We guarantee that you will always walk away with custom artwork that you will love. Goodkind Tattoo is owned and operated by Rob Goodkind, one of the best tattoo artists you will meet. Rob and his staff are constantly evolving within in the tattoo industry by learning new methods, ideologies of Chicago, and appreciating the artwork that others do.
+          </p>
+          <div>
+            <i class="bi bi-check-lg"></i>
+            <p>EXPERIENCED ARTISTS.</p>
+          </div>
+          <div>
+            <i class="bi bi-check-lg"></i>
+            <p>YOUR VISION APPLIED.</p>
+          </div>
+          <div>
+            <i class="bi bi-check-lg"></i>
+            <p>RELAXED ATMOSPHERE.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Portfolio -->
+
+    <section class="portfolio" id="portfolio">
+      <h1 class="section-title">OUR LATEST WORK</h1>
+      <p class="section-subtitle">Choose from hundreds of portfolios from specialist organizations</p>
+
+      <div class="row">
+        <div class="portfolio-col">
+          <img src="images/1.jpeg" alt="" />
+        </div>
+        <div class="portfolio-col">
+          <img src="images/2.jpeg" alt="" />
+        </div>
+        <div class="portfolio-col">
+          <img src="images/3.jpeg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio End -->
+  
+
+    <!-- Testimonials -->
+
+    <section class="testimonials" style="background-image: url(images/testimonial-bg.jpg);">
+      <h1 class="section-title">WHAT PEOPLE SAY?</h1>
+      <p class="section-subtitle">Unveiling the Meaningful Experiences Behind Every Tattoo</p>
+
+      <div class="row">
+        <div class="testimonials-col">
+          <div class="box-top">
+            <img src="images/user1.jpg" alt="" />
+            <h3>Sarah M.</h3>
+          </div>
+          <div>
+            <p>"I can't express how thrilled I am with my tattoo from The Freshest Ink Bali. The artist's attention to detail and skillful execution brought my vision to life. The entire team was friendly, professional, and made me feel comfortable throughout the entire process. This tattoo holds a special meaning to me, and I'm grateful to have found a studio that truly understands the significance of body art. Highly recommended!"</p>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials-col">
+          <div class="box-top">
+            <img src="images/user2.jpg" alt="" />
+            <h3>Michael L.</h3>
+          </div>
+
+          <div>
+            <p>"I had been contemplating getting a tattoo for years, and I finally took the plunge with The Freshest Ink Bali. From the moment I walked in, I knew I had made the right choice. The artists were incredibly talented and patient, taking the time to listen to my ideas and offering their expert advice. The result exceeded my expectations, and I couldn't be happier with my tattoo. If you're looking for a top-notch tattoo experience, look no further than The Freshest Ink Bali!"</p>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+      <div class="top">
+        <img src="images/logo.png" style="filter: invert(100%);" width="200px" alt="" />
+        <p>
+          The Freshest Ink Bali Tattoo Studio provides unique and custom work and our reviews speak for<br /> themselves as one of the best rated tattoo shops in Bali.
+        </p>
+      </div>
+
+      <div class="icons">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-linkedin"></i>
+      </div>
+      <p>COPYRIGHT ©2023 THE FRESHEST INK BALI TATTOO - ALL RIGHTS RESERVED.</p>
+      <p style="letter-spacing: 0.4rem;">Made with <i class="bi bi-heart"></i> by KRISHNA</p>
+    </section>
+
+    <!-- JavaScript -->
+
+    <script>
+      var navLinks = document.getElementById("nav-links");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
