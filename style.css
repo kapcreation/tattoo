@@ -189,6 +189,7 @@ nav .bi {
   transition: 0.5s;
   overflow: hidden;
   cursor: pointer;
+  min-height: 500px;
   height: 500px;
   background-size: cover;
   background-position: center;
